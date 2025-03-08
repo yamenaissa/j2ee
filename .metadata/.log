@@ -1279,3 +1279,27 @@ Caused by: org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
 	... 73 more
+!SESSION 2025-03-08 21:15:51.585 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2025-03-08 21:16:18.750
+!MESSAGE NLS unused message: contextRootLabelInvalid in: org.eclipse.jst.servlet.ui.project.facet.WebFacetInstallPage
+
+!ENTRY org.eclipse.osgi 2 1 2025-03-08 21:16:18.751
+!MESSAGE NLS unused message: contentDirLabelInvalid in: org.eclipse.jst.servlet.ui.project.facet.WebFacetInstallPage
+
+!ENTRY org.eclipse.ui.workbench 2 0 2025-03-08 21:23:39.647
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2025-03-08 21:23:39.647
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@141541),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@9d4d84,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@3aab44)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@fa706d)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@141541),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@9d4d84,ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@3aab44)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@fa706d)),sourcePriority=1064961)

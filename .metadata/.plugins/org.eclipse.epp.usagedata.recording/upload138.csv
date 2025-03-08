@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.version,sysinfo,,,"1.6.0-b105",1741464963855
+java.specification.name,sysinfo,,,"Java Platform API Specification",1741464963855
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1741464963855
+java.specification.version,sysinfo,,,"1.6",1741464963855
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1741464963855
+java.version,sysinfo,,,"1.6.0",1741464963855
+java.vm.info,sysinfo,,,"mixed mode",1741464963855
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1741464963855
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1741464963855
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1741464963855
+java.vm.specification.version,sysinfo,,,"1.0",1741464963855
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1741464963855
+java.vm.version,sysinfo,,,"1.6.0-b105",1741464963855
+started,bundle,org.eclipse.core.variables,3.2.200.v20090521,"org.eclipse.core.variables",1741464964346
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1741464972983
+started,bundle,org.eclipse.wst.common.project.facet.ui,1.4.1.v200908111817,"org.eclipse.wst.common.project.facet.ui",1741464978625
+started,bundle,org.eclipse.wst.web.ui,1.1.300.v200905242131,"org.eclipse.wst.web.ui",1741464978626
+started,bundle,org.eclipse.jst.servlet.ui,1.1.301.v200908101600,"org.eclipse.jst.servlet.ui",1741464978627
+started,bundle,org.eclipse.jst.common.project.facet.ui,1.4.1.v200908111817,"org.eclipse.jst.common.project.facet.ui",1741464978736
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741464978801
+started,bundle,org.eclipse.jst.jee.ejb,1.0.201.v200908101600,"org.eclipse.jst.jee.ejb",1741465048926
+started,bundle,org.eclipse.jst.jee.web,1.0.200.v200904130912,"org.eclipse.jst.jee.web",1741465048929
+started,bundle,org.eclipse.xsd,2.5.0.v200906151043,"org.eclipse.xsd",1741465048992
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741465049332
+started,bundle,org.eclipse.wst.internet.cache,1.0.301.v200805140020,"org.eclipse.wst.internet.cache",1741465049691

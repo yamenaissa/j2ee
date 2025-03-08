@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Convertisseur de température</title>
+</head>
+<body>
+    <h2>Convertisseur de température</h2>
+    <p>Vous pouvez convertir une température exprimée en Celsius en une valeur exprimée en Fahrenheit.</p>
+    
+    <form action="convertisseur" method="post">
+        <label for="celsius">Valeur en Celsius:</label>
+        <input type="text" id="celsius" name="celsius">
+        <button type="submit">Convertir</button>
+    </form>
+</body>
+</html>

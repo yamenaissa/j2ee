@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Internal Error",1741205820581
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741205904212
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741205937601
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1741205937840
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1741205998616
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741206076433
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741206797424
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1741206799854
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741206805425
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741206829153
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.newWizard",1741206829163
+opened,editor,org.eclipse.wst.css.ui,1.0.401.v200907171457,"org.eclipse.wst.css.core.csssource.source",1741206829226
+activated,editor,org.eclipse.wst.css.ui,1.0.401.v200907171457,"org.eclipse.wst.css.core.csssource.source",1741206829287
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741206834154
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741206842681
+error,log,,,"StructuredTextViewer.exception.verifyText",1741206845286
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1741206847204
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741206851099
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741206861155
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1741206866734
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.selectAll",1741206868742
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1741206869513
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741206876584
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741206899491
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741206900797

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741262951882
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741262953587
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.launchShortcut.run",1741262953602
+opened,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1741262957166
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1741262957187
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741263037695
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741263050590
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.selectAll",1741263051316
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.selectAll",1741263051316
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1741263052868
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1741263052868
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741263054536
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741263094263
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1741263094271
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1741263096724
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1741263103750
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1741263105439
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.0.v200904240436,"org.eclipse.wst.xsl.debug.ui",1741263107546
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1741263110053
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1741263110091
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1741263115347
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741263118376
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741263120757
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741263120773
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741263122352

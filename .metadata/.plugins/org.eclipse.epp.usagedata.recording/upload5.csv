@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1740055240045
+java.vm.specification.version,sysinfo,,,"1.0",1740055240045
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1740055240045
+java.vm.version,sysinfo,,,"1.6.0-b105",1740055240045
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1740055245191
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1740055245238
+closed,view,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.internal.introview",1740055245301
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740055258125
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740055396305
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740055398909
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740055404414
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740055430367
+started,bundle,org.eclipse.wst.server.core,1.1.102.v20090825,"org.eclipse.wst.server.core",1740055453851
+started,bundle,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui",1740055453882
+started,bundle,org.eclipse.jst.server.core,1.2.0.v20090421,"org.eclipse.jst.server.core",1740055490866
+started,bundle,org.eclipse.jst.server.tomcat.core,1.1.106.v20090814,"org.eclipse.jst.server.tomcat.core",1740055490866
+started,bundle,org.eclipse.debug.core,3.5.0.v20090526-1600,"org.eclipse.debug.core",1740055490881
+started,bundle,org.eclipse.jst.server.tomcat.ui,1.1.102.v20090424,"org.eclipse.jst.server.tomcat.ui",1740055490881
+started,bundle,org.eclipse.jdt.launching,3.5.0.v20090527,"org.eclipse.jdt.launching",1740055512894
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1740055523589
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740055574326
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740055575686
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740055647874
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740055651827
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740055663297

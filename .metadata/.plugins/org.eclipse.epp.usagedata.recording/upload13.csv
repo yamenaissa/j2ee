@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740056996288
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.select.lineStart",1740057001552
+started,bundle,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit",1740057010723
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.ui.views.log",1740057010739
+started,bundle,org.eclipse.pde.ui,3.5.0.v20090821,"org.eclipse.pde.ui",1740057010754
+started,bundle,org.eclipse.mylyn.java.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.java.ui",1740057017749
+started,bundle,org.eclipse.pde.api.tools,1.0.101.v20090714,"org.eclipse.pde.api.tools",1740057017764
+started,bundle,org.eclipse.pde.api.tools.ui,1.0.101.v20090820,"org.eclipse.pde.api.tools.ui",1740057017764
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1740057031314
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1740057059142
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740057089058
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740057089293
+error,log,,,"Internal Error",1740057095760
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1740057120241
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1740057203073
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1740057203904
+no handler,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1740057213793
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1740057222473
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1740057235943
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1740057238413
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1740057255788
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740057322218
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740057377625
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1740057448313
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1740057456455

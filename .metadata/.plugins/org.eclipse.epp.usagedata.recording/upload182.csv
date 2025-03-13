@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.jst.server.generic.core,1.0.506.v20090817,"org.eclipse.jst.server.generic.core",1741852093639
+started,bundle,org.eclipse.jst.server.preview.adapter,1.1.0.v20090311b,"org.eclipse.jst.server.preview.adapter",1741852093655
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741852096819
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.launchShortcut.run",1741852096869
+opened,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1741852096934
+started,bundle,org.eclipse.jst.server.tomcat.ui,1.1.102.v20090424,"org.eclipse.jst.server.tomcat.ui",1741852096954
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1741852097054
+started,bundle,org.eclipse.jdt.debug.ui,3.4.1.v20090811_r351,"org.eclipse.jdt.debug.ui",1741852097161
+started,bundle,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser",1741852099449
+opened,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1741852099688
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1741852099728
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1741852140160
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1741852142014
+error,log,,,"File not found: '/ForthProject/src/__2F_ForthProject_2F_WebContent_2F_Affichage_2E_jsp.java'",1741852153546
+error,log,,,"File not found: '/ForthProject/src/__2F_ForthProject_2F_WebContent_2F_Affichage_2E_jsp.java'",1741852153546
+error,log,,,"File not found: '/ForthProject/src/__2F_ForthProject_2F_WebContent_2F_Affichage_2E_jsp.java'",1741852153561
+executed,command,org.eclipse.wst.sse.ui,1.1.101.v200908261807,"org.eclipse.wst.sse.ui.format.document",1741852153591
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.0.v20090513-2000,"org.eclipse.ltk.core.refactoring",1741852158843
+started,bundle,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring",1741852158955
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1741852159049
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1741852159151
+executed,command,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.edit.text.java.format",1741852161204
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1741852165018
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1741852166285
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1741852166335

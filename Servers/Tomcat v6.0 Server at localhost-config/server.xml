@@ -129,7 +129,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="WTPproject" path="/WTPproject" reloadable="true" source="org.eclipse.jst.jee.server:WTPproject"/><Context docBase="MonPremierTp" path="/MonPremierTp" reloadable="true" source="org.eclipse.jst.jee.server:MonPremierTp"/><Context docBase="DeuxiemeTP" path="/DeuxiemeTP" reloadable="true" source="org.eclipse.jst.jee.server:DeuxiemeTP"/><Context docBase="TroisièmeTP" path="/TroisièmeTP" reloadable="true" source="org.eclipse.jst.jee.server:TroisièmeTP"/><Context docBase="newProject" path="/newProject" reloadable="true" source="org.eclipse.jst.jee.server:newProject"/></Host>
+      <Context docBase="WTPproject" path="/WTPproject" reloadable="true" source="org.eclipse.jst.jee.server:WTPproject"/><Context docBase="MonPremierTp" path="/MonPremierTp" reloadable="true" source="org.eclipse.jst.jee.server:MonPremierTp"/><Context docBase="DeuxiemeTP" path="/DeuxiemeTP" reloadable="true" source="org.eclipse.jst.jee.server:DeuxiemeTP"/><Context docBase="TroisièmeTP" path="/TroisièmeTP" reloadable="true" source="org.eclipse.jst.jee.server:TroisièmeTP"/><Context docBase="newProject" path="/newProject" reloadable="true" source="org.eclipse.jst.jee.server:newProject"/><Context docBase="ForthProject" path="/ForthProject" reloadable="true" source="org.eclipse.jst.jee.server:ForthProject"/></Host>
     </Engine>
   </Service>
 </Server>

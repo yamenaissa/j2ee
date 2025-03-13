@@ -1,0 +1,81 @@
+package controllers;
+
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import models.Personne;
+
+@WebServlet("/AjoutServlet")
+public class AjoutServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+    
+    // Liste pour stocker les personnes saisies
+    private List<Personne> personnes;
+    
+    @Override
+    public void init() throws ServletException {
+        personnes = new ArrayList<>();
+    }
+    
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) 
+            throws ServletException, IOException {
+        
+        // Récupération des paramètres du formulaire
+        String nom = request.getParameter("nom");
+        String prenom = request.getParameter("prenom");
+        String dateStr = request.getParameter("date");
+        
+        // Vérification des champs entrés
+        if (nom != null && !nom.isEmpty() && prenom != null && !prenom.isEmpty() 
+                && dateStr != null && !dateStr.isEmpty()) {
+            
+            try {
+                // Conversion de la date
+                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+                Date date = sdf.parse(dateStr);
+                
+                // Création d'un objet Personne
+                Personne personne = new Personne(nom, prenom, sexe, code);
+                
+                // Ajout de la personne à la liste
+                personnes.add(personne);
+                
+                // Stockage de la liste dans la session
+                HttpSession session = request.getSession();
+                session.setAttribute("personnes", personnes);
+                
+                // Redirection vers la page d'affichage
+                request.getRequestDispatcher("/Affichage.jsp").forward(request, response);
+                
+            } catch (ParseException e) {
+                e.printStackTrace();
+                response.sendRedirect("SaisiePersonne.html");
+            }
+        } else {
+            // Redirection vers le formulaire en cas d'erreur
+            response.sendRedirect("SaisiePersonne.html");
+        }
+    }
+    
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) 
+            throws ServletException, IOException {
+        
+        // Récupération de la liste des personnes
+        HttpSession session = request.getSession();
+        session.setAttribute("personnes", personnes);
+        
+        // Redirection vers la page d'affichage
+        request.getRequestDispatcher("/Affichage.jsp").forward(request, response);
+    }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+  <javaee:display-name>MVCPersonne</javaee:display-name>
+  <welcome-file-list>
+    <welcome-file>SaisiePersonne.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>AjoutServlet</servlet-name>
+    <servlet-class>controllers.AjoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjoutServlet</servlet-name>
+    <url-pattern>/AjoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <javaee:description></javaee:description>
+    <javaee:display-name>Delete</javaee:display-name>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>controllers.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+</web-app>

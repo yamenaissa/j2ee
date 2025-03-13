@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.select.lineStart",1741853821846
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.select.lineStart",1741853823232
+executed,command,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.edit.text.java.format",1741853827835
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineStart",1741853834036
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineStart",1741853845629
+error,log,,,"Internal Error",1741853847137
+error,log,,,"Internal Error",1741853884848
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.select.lineStart",1741853896463
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.select.lineStart",1741853897512
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1741853906424
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741853909210
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741853911023
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741853915526
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741853917391
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741853919704
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741853921175
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1741853931642
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1741853949207
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741853954163
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741853955535
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741853957386
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1741853958820
+activated,editor,org.eclipse.jst.jsp.ui,1.1.401.v200908111935,"org.eclipse.jst.jsp.core.jspsource.source",1741853963083
+closed,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1741853963090
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1741853972202

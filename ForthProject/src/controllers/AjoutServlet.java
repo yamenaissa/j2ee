@@ -1,0 +1,44 @@
+package controllers;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import models.Personne;
+
+public class AjoutServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	private ArrayList<Personne> personnes = new ArrayList<Personne>();
+
+	protected void doGet(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+		HttpSession session = request.getSession();
+		session.setAttribute("personnes", personnes);
+		request.getRequestDispatcher("Affichage.jsp")
+				.forward(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+
+		String nom = request.getParameter("nom");
+		String prenom = request.getParameter("prenom");
+		String sexe = request.getParameter("sexe");
+		String codePostalStr = request.getParameter("codePostal");
+
+		int codePostal = Integer.parseInt(codePostalStr);
+		Personne personne = new Personne(nom, prenom, sexe, codePostal);
+		personnes.add(personne);
+		HttpSession session = request.getSession();
+		session.setAttribute("personnes", personnes);
+		request.getRequestDispatcher("Affichage.jsp")
+				.forward(request, response);
+
+	}
+
+}

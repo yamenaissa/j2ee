@@ -1,0 +1,90 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ page import="java.util.List"%>
+<%@ page import="models.Personne"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Affichage des personnes</title>
+<style>
+table {
+	border-collapse: collapse;
+	width: 80%;
+	margin: 20px auto;
+}
+
+th,td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+.container {
+	text-align: center;
+}
+
+.button {
+	margin: 10px;
+	padding: 5px 10px;
+}
+
+.action-link {
+	margin-right: 10px;
+	text-decoration: none;
+	color: blue;
+}
+
+.delete-link {
+	color: red;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Liste des personnes saisies</h1>
+
+<%
+	List<Personne> personnes = (List<Personne>) session
+			.getAttribute("personnes");
+	if (personnes != null && !personnes.isEmpty()) {
+%>
+<table>
+	<tr>
+		<th>Nom</th>
+		<th>Prénom</th>
+		<th>Sexe</th>
+		<th>Code Postal</th>
+		<th>Actions</th>
+	</tr>
+	<%
+		for (int i = 0; i < personnes.size(); i++) {
+				Personne p = personnes.get(i);
+	%>
+	<tr>
+		<td><%=p.getNom()%></td>
+		<td><%=p.getPrenom()%></td>
+		<td><%=p.getSexe()%></td>
+		<td><%=p.getCodePostal()%></td>
+		<td><a href="Edit?index=<%=i%>" class="action-link">Modifier</a>
+		<a href="Delete?index=<%=i%>"class="action-link delete-link">Supprimer</a>
+		</td>
+	</tr>
+	<%
+		}
+	%>
+</table>
+<%
+	} else {
+%>
+<p>Aucune personne n'a été saisie.</p>
+<%
+	}
+%> <a href="SaisiePersonne.html" class="button">Ajouter une
+nouvelle personne</a></div>
+</body>
+</html>
